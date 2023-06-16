@@ -4216,7 +4216,7 @@
     (property "Datasheet" "https://ww1.microchip.com/downloads/en/DeviceDoc/2412.pdf" (at 255.27 151.13 0)
       (effects (font (size 1.27 1.27) italic) hide)
     )
-    (property "Field4" "" (at 255.27 151.13 0)
+    (property "LCSC Part" "C220647" (at 255.27 151.13 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 9be0840a-b216-42a8-b9f1-a90da4f65a41))
