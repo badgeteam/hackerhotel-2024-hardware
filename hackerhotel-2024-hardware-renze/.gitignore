@@ -1,0 +1,10 @@
+fp-info-cache
+*-backups
+*.kicad_prl
+*.svg2shenzhen-cache
+*.ods
+*.csv
+*.lck
+bom
+*.xml
+*.stl
