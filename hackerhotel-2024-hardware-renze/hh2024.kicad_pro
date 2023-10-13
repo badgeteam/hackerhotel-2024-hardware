@@ -557,7 +557,7 @@
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
-      "svg": "",
+      "svg": "./",
       "vrml": ""
     },
     "page_layout_descr_file": ""
@@ -666,6 +666,24 @@
           "group_by": false,
           "label": "Sponsored",
           "name": "Sponsored",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Qty",
+          "name": "${QUANTITY}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Buy early",
+          "name": "Field-1",
           "show": false
         }
       ],
