@@ -2087,7 +2087,7 @@
     (property "Value" "SW_SPDT" (at 175.26 49.53 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 180.34 49.53 0)
+    (property "Footprint" "Button_Switch_SMD:SW_SPDT_PCM12" (at 180.34 49.53 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 180.34 49.53 0)
