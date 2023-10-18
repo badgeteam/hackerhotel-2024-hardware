@@ -536,8 +536,8 @@
       "gencad": "",
       "idf": "",
       "netlist": "mch2021.net",
-      "plot": "",
-      "pos_files": "",
+      "plot": "Gerbers/",
+      "pos_files": "Gerbers/",
       "specctra_dsn": "",
       "step": "",
       "svg": "./",
@@ -668,6 +668,12 @@
           "label": "Buy early",
           "name": "Field-1",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Link",
+          "name": "Link",
+          "show": true
         }
       ],
       "filter_string": "",
