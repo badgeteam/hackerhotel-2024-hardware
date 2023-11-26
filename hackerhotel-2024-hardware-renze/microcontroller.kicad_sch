@@ -532,6 +532,11 @@
     (uuid f542997c-cdf9-45da-8aba-a12eed12a5de)
   )
 
+  (label "GPIO9" (at 179.07 86.36 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid d8b3669b-c5be-4bd3-b75c-3e486f453630)
+  )
+
   (hierarchical_label "SAO IO2" (shape bidirectional) (at 116.84 71.12 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 01630335-6c08-4bda-b3b2-f404a996e85a)
