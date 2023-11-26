@@ -1,4 +1,4 @@
-22613289310927315
+22648927185999021
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -476,6 +476,13 @@ FM-B2020RGBA-HG
 4
 4
 BamboulabFootprints
+HRS1H-S-DC3V
+
+
+0
+6
+6
+BamboulabFootprints
 IN-14
 
 
@@ -879,8 +886,8 @@ SK6812SIDE-A-S
 
 
 0
-0
-0
+6
+4
 BamboulabFootprints
 SMD_TestPin_1.27mm_4Pos
 
@@ -1020,6 +1027,13 @@ TM-2022-2
 
 0
 5
+4
+BamboulabFootprints
+TM-2023
+
+
+0
+8
 4
 BamboulabFootprints
 TP4056
@@ -1210,6 +1224,13 @@ XKBENTERPRISEU261-24XN-4BS60
 0
 26
 25
+BamboulabFootprints
+XL-1606UOC Side Sticker LED
+
+
+0
+2
+2
 BamboulabFootprints
 ZapZap_F.Cu
 
@@ -57238,6 +57259,34 @@ Fuse Fuseholder TR5 Littelfuse/Wickmann No. 460 No560
 0
 2
 2
+HH2024Artwork
+HH24_D1_F.SilkS
+
+
+0
+0
+0
+HH2024Artwork
+HH24_D2_F.SilkS
+
+
+0
+0
+0
+HH2024Artwork
+HH24_S_F.Cu
+
+
+0
+0
+0
+HH2024Artwork
+HH24_S_F.Mask
+
+
+0
+0
+0
 Heatsink
 Heatsink_35x26mm_1xFixation3mm_Fischer-SK486-35
 Heatsink, 35mm x 26mm, 1x Fixation 3mm, Fischer SK486-35
@@ -93673,3 +93722,101 @@ varistor
 0
 2
 2
+vfd
+1X04_1MM_RA_GND
+SMD- 4 PIN RIGHT ANGLE
+SMD- 4 PIN RIGHT ANGLE
+0
+6
+6
+vfd
+C_0603_1608Metric
+Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
+capacitor
+0
+2
+2
+vfd
+D_SOD-323
+SOD-323
+SOD-323
+0
+2
+2
+vfd
+HCS-12SS59T
+
+
+0
+15
+15
+vfd
+Inductor_MSC20FC
+
+
+0
+2
+2
+vfd
+LED_0603_1608Metric
+LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+LED
+0
+2
+2
+vfd
+QFN-20-1EP_3x3mm_P0.4mm_EP1.65x1.65mm
+QFN, 20 Pin (https://www.analog.com/media/en/technical-documentation/data-sheets/3553fc.pdf#page=34), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
+0
+25
+21
+vfd
+R_0603_1608Metric
+Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
+resistor
+0
+2
+2
+vfd
+SOT-23
+SOT, 3 Pin (https://www.jedec.org/system/files/docs/to-236h.pdf variant AB), generated with kicad-footprint-generator ipc_gullwing_generator.py
+SOT TO_SOT_SMD
+0
+3
+3
+vfd
+SOT-23-5
+SOT, 5 Pin (https://www.jedec.org/sites/default/files/docs/Mo-178c.PDF variant AA), generated with kicad-footprint-generator ipc_gullwing_generator.py
+SOT TO_SOT_SMD
+0
+5
+5
+vfd
+SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm
+SMD Solder Jumper, 1x1.5mm Triangular Pads, 0.3mm gap, open
+solder jumper open
+0
+2
+2
+vfd
+TSSOP-20_4.4x6.5mm_P0.65mm
+TSSOP, 20 Pin (JEDEC MO-153 Var AC https://www.jedec.org/document_search?search_api_views_fulltext=MO-153), generated with kicad-footprint-generator ipc_gullwing_generator.py
+TSSOP SO
+0
+20
+20
+vfd
+TestPoint_Pad_D1.5mm
+SMD pad as test Point, diameter 1.5mm
+test point SMD pad
+0
+1
+1
+vfd
+logo_nicolai
+
+
+0
+0
+0
