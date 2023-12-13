@@ -7808,7 +7808,7 @@
     (property "Value" "SAO" (at 141.732 41.402 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "BamboulabFootprints:SAO2" (at 149.86 39.37 0)
+    (property "Footprint" "BamboulabFootprints:SAO Female THT Labels" (at 149.86 39.37 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://datasheet.lcsc.com/lcsc/2105241721_Liansheng-FH-00517_C2829893.pdf" (at 149.86 39.37 0)

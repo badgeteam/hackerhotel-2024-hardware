@@ -1,0 +1,410 @@
+** Drc report for C:\Users\Shizune\Documents\GitHub\hackerhotel-2024-hardware\hh2024.kicad_pcb **
+** Created on 2023-12-13T21:17:10+0000 **
+
+** Found 105 DRC violations **
+[lib_footprint_issues]: The current configuration does not include the library 'tanoshii'.
+    Local override; warning
+    @(149.0370 mm, 78.1050 mm): Footprint D2
+[lib_footprint_issues]: The current configuration does not include the library 'tanoshii'.
+    Local override; warning
+    @(131.7550 mm, 63.1170 mm): Footprint U1
+[lib_footprint_issues]: The current configuration does not include the library 'tanoshii'.
+    Local override; warning
+    @(130.7655 mm, 85.1975 mm): Footprint Q1
+[lib_footprint_issues]: The current configuration does not include the library 'tanoshii'.
+    Local override; warning
+    @(118.4425 mm, 76.6420 mm): Footprint Q3
+[lib_footprint_issues]: The current configuration does not include the library 'tanoshii'.
+    Local override; warning
+    @(111.0115 mm, 112.1557 mm): Footprint J5
+[lib_footprint_issues]: The current configuration does not include the library 'tanoshii'.
+    Local override; warning
+    @(146.0984 mm, 85.0929 mm): Footprint U2
+[lib_footprint_issues]: The current configuration does not include the library 'tanoshii'.
+    Local override; warning
+    @(150.1800 mm, 71.1200 mm): Footprint D3
+[lib_footprint_issues]: The current configuration does not include the library 'tanoshii'.
+    Local override; warning
+    @(159.7050 mm, 75.5650 mm): Footprint Q2
+[lib_footprint_issues]: The current configuration does not include the library 'tanoshii'.
+    Local override; warning
+    @(121.3612 mm, 84.1756 mm): Footprint D1
+[lib_footprint_issues]: The current configuration does not include the library 'tanoshii'.
+    Local override; warning
+    @(153.9900 mm, 71.1200 mm): Footprint D4
+[lib_footprint_issues]: The current configuration does not include the library 'tanoshii'.
+    Local override; warning
+    @(95.4900 mm, 90.4400 mm): Footprint J4
+[lib_footprint_issues]: The current configuration does not include the library 'tanoshii'.
+    Local override; warning
+    @(145.5674 mm, 82.0014 mm): Footprint L1
+[lib_footprint_issues]: The current configuration does not include the library 'tanoshii'.
+    Local override; warning
+    @(165.6500 mm, 66.0000 mm): Footprint J6
+[lib_footprint_issues]: The current configuration does not include the library 'tanoshii'.
+    Local override; warning
+    @(111.2775 mm, 103.2692 mm): Footprint U3
+[lib_footprint_issues]: The current configuration does not include the library 'tanoshii'.
+    Local override; warning
+    @(159.7050 mm, 80.0100 mm): Footprint L2
+[lib_footprint_issues]: The current configuration does not include the library 'tanoshii'.
+    Local override; warning
+    @(117.6020 mm, 81.7880 mm): Footprint D25
+[lib_footprint_issues]: The current configuration does not include the library 'tanoshii'.
+    Local override; warning
+    @(99.1100 mm, 55.8300 mm): Footprint J3
+[lib_footprint_issues]: The current configuration does not include the library 'tanoshii'.
+    Local override; warning
+    @(102.0000 mm, 83.1000 mm): Footprint F1
+[lib_footprint_issues]: Footprint 'QFN-20-1EP_3x3mm_P0.4mm_EP1.65x1.65mm' not found in library 'vfd'.
+    Local override; warning
+    @(158.3160 mm, 119.9260 mm): Footprint U5
+[lib_footprint_issues]: The current configuration does not include the library 'tanoshii'.
+    Local override; warning
+    @(124.1846 mm, 85.3245 mm): Footprint U4
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; warning
+    @(158.0175 mm, 46.8000 mm): Circle on B.Mask
+    @(157.5800 mm, 48.2500 mm): Track [GND] on B.Cu, length 1.0700 mm
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; warning
+    @(131.9900 mm, 109.3300 mm): Circle on B.Mask
+    @(132.7900 mm, 108.4150 mm): Track [/A] on B.Cu, length 0.4850 mm
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; warning
+    @(131.9900 mm, 109.3300 mm): Circle on B.Mask
+    @(132.7900 mm, 108.4150 mm): Track [/A] on B.Cu, length 0.4850 mm
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; warning
+    @(127.9000 mm, 125.7900 mm): Circle on B.Mask
+    @(128.7150 mm, 127.6050 mm): Track [/A] on B.Cu, length 0.8700 mm
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; warning
+    @(127.9000 mm, 125.7900 mm): Circle on B.Mask
+    @(128.7150 mm, 127.6050 mm): Track [/A] on B.Cu, length 0.8700 mm
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; warning
+    @(123.8200 mm, 131.2100 mm): Circle on B.Mask
+    @(124.6450 mm, 132.1350 mm): Track [/A] on B.Cu, length 0.1750 mm
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; warning
+    @(123.8200 mm, 131.2100 mm): Circle on B.Mask
+    @(124.6450 mm, 132.1350 mm): Track [/A] on B.Cu, length 0.1750 mm
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; warning
+    @(144.3500 mm, 114.7950 mm): Circle on B.Mask
+    @(145.1650 mm, 113.8200 mm): Track [/B] on B.Cu, length 1.3505 mm
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; warning
+    @(123.8200 mm, 131.2100 mm): Circle on B.Mask
+    @(124.6450 mm, 132.1350 mm): Track [/A] on B.Cu, length 0.1750 mm
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; warning
+    @(127.9000 mm, 114.7700 mm): Circle on B.Mask
+    @(128.7150 mm, 113.7950 mm): Track [/A] on B.Cu, length 0.0400 mm
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; warning
+    @(136.1300 mm, 125.8100 mm): Circle on B.Mask
+    @(136.9750 mm, 126.7550 mm): Track [/B] on B.Cu, length 0.2300 mm
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; warning
+    @(127.8900 mm, 103.6500 mm): Circle on B.Mask
+    @(128.6950 mm, 102.6050 mm): Track [/A] on B.Cu, length 0.4738 mm
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; warning
+    @(144.3600 mm, 125.7800 mm): Circle on B.Mask
+    @(143.5200 mm, 126.6700 mm): Track [/E] on B.Cu, length 1.0000 mm
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; warning
+    @(140.2100 mm, 131.2000 mm): Circle on B.Mask
+    @(141.2240 mm, 133.1250 mm): Track [/B] on B.Cu, length 4.5490 mm
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; warning
+    @(140.2200 mm, 109.3200 mm): Circle on B.Mask
+    @(141.0650 mm, 108.4500 mm): Track [/B] on B.Cu, length 0.5150 mm
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; warning
+    @(131.9900 mm, 131.2100 mm): Circle on B.Mask
+    @(132.8150 mm, 132.2350 mm): Track [/B] on B.Cu, length 0.6435 mm
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; warning
+    @(144.3600 mm, 125.7800 mm): Circle on B.Mask
+    @(143.5200 mm, 126.6700 mm): Track [/E] on B.Cu, length 1.0000 mm
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; warning
+    @(132.0300 mm, 97.8800 mm): Circle on B.Mask
+    @(131.1950 mm, 96.9850 mm): Track [/E] on B.Cu, length 0.3600 mm
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; warning
+    @(119.5400 mm, 125.8100 mm): Circle on B.Mask
+    @(120.3850 mm, 126.7650 mm): Track [/A] on B.Cu, length 1.1879 mm
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; warning
+    @(127.8900 mm, 103.6500 mm): Circle on B.Mask
+    @(128.6950 mm, 102.6050 mm): Track [/A] on B.Cu, length 0.4738 mm
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; warning
+    @(131.9900 mm, 131.2100 mm): Circle on B.Mask
+    @(132.8150 mm, 132.2350 mm): Track [/B] on B.Cu, length 0.6435 mm
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; warning
+    @(132.0300 mm, 97.8800 mm): Circle on B.Mask
+    @(131.1950 mm, 96.9850 mm): Track [/E] on B.Cu, length 0.3600 mm
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; warning
+    @(144.3600 mm, 125.7800 mm): Circle on B.Mask
+    @(143.5200 mm, 126.6700 mm): Track [/E] on B.Cu, length 1.0000 mm
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; warning
+    @(140.2100 mm, 131.2000 mm): Circle on B.Mask
+    @(141.2240 mm, 133.1250 mm): Track [/B] on B.Cu, length 4.5490 mm
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; warning
+    @(127.8900 mm, 136.8600 mm): Circle on B.Mask
+    @(128.7150 mm, 137.7650 mm): Track [/A] on B.Cu, length 0.1100 mm
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; warning
+    @(140.2100 mm, 131.2000 mm): Circle on B.Mask
+    @(141.2240 mm, 133.1250 mm): Track [/B] on B.Cu, length 4.5490 mm
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; warning
+    @(132.0000 mm, 142.6300 mm): Circle on B.Mask
+    @(131.1850 mm, 143.6050 mm): Track [/E] on B.Cu, length 0.6718 mm
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; warning
+    @(123.8500 mm, 109.2900 mm): Circle on B.Mask
+    @(124.6400 mm, 103.2600 mm): Track [/C] on B.Cu, length 4.8600 mm
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; warning
+    @(136.1500 mm, 114.7700 mm): Circle on B.Mask
+    @(136.9650 mm, 113.7950 mm): Track [/B] on B.Cu, length 0.4500 mm
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; warning
+    @(127.8900 mm, 136.8600 mm): Circle on B.Mask
+    @(128.7150 mm, 137.7650 mm): Track [/A] on B.Cu, length 0.1100 mm
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; warning
+    @(119.5700 mm, 114.7200 mm): Circle on B.Mask
+    @(121.5500 mm, 112.5500 mm): Track [/A] on B.Cu, length 1.7112 mm
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; warning
+    @(136.1700 mm, 103.6500 mm): Circle on B.Mask
+    @(135.2850 mm, 102.7250 mm): Track [/E] on B.Cu, length 0.6435 mm
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; warning
+    @(123.8500 mm, 109.2900 mm): Circle on B.Mask
+    @(124.6400 mm, 103.2600 mm): Track [/C] on B.Cu, length 4.8600 mm
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; warning
+    @(140.2100 mm, 131.2000 mm): Circle on B.Mask
+    @(141.2240 mm, 133.1250 mm): Track [/B] on B.Cu, length 4.5490 mm
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; warning
+    @(132.0000 mm, 142.6300 mm): Circle on B.Mask
+    @(131.1850 mm, 143.6050 mm): Track [/E] on B.Cu, length 0.6718 mm
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; warning
+    @(136.1700 mm, 103.6500 mm): Circle on B.Mask
+    @(135.2850 mm, 102.7250 mm): Track [/E] on B.Cu, length 0.6435 mm
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; warning
+    @(123.8500 mm, 109.2900 mm): Circle on B.Mask
+    @(124.6400 mm, 103.2600 mm): Track [/C] on B.Cu, length 4.8600 mm
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; warning
+    @(136.1900 mm, 136.8400 mm): Circle on B.Mask
+    @(136.9950 mm, 137.7450 mm): Track [/B] on B.Cu, length 0.1900 mm
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; warning
+    @(158.0175 mm, 46.8000 mm): Circle on B.Mask
+    @(157.5800 mm, 48.2500 mm): Track [GND] on B.Cu, length 1.0700 mm
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; warning
+    @(158.0175 mm, 46.8000 mm): Circle on B.Mask
+    @(157.5800 mm, 48.2500 mm): Track [GND] on B.Cu, length 1.0700 mm
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; warning
+    @(119.5700 mm, 114.7200 mm): Circle on B.Mask
+    @(118.7100 mm, 113.7950 mm): Pad 1 [/D] of D9 on B.Cu
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; warning
+    @(144.3500 mm, 114.7950 mm): Circle on B.Mask
+    @(143.5350 mm, 113.8200 mm): Pad 1 [/E] of D6 on B.Cu
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; warning
+    @(136.1700 mm, 103.6500 mm): Circle on B.Mask
+    @(135.3600 mm, 102.7250 mm): Pad 1 [/E] of D8 on B.Cu
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; warning
+    @(123.8200 mm, 131.2100 mm): Circle on B.Mask
+    @(124.6450 mm, 132.1350 mm): Pad 1 [/A] of D24 on B.Cu
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; warning
+    @(123.8500 mm, 109.2900 mm): Circle on B.Mask
+    @(123.0050 mm, 108.3850 mm): Pad 1 [/D] of D11 on B.Cu
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; warning
+    @(131.9900 mm, 131.2100 mm): Circle on B.Mask
+    @(132.8150 mm, 132.1350 mm): Pad 1 [/B] of D18 on B.Cu
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; warning
+    @(127.9000 mm, 125.7900 mm): Circle on B.Mask
+    @(128.7150 mm, 126.7350 mm): Pad 1 [/A] of D21 on B.Cu
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; warning
+    @(132.0300 mm, 97.8800 mm): Circle on B.Mask
+    @(131.1950 mm, 96.9850 mm): Pad 1 [/E] of D7 on B.Cu
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; warning
+    @(136.1900 mm, 136.8400 mm): Circle on B.Mask
+    @(136.9950 mm, 137.7450 mm): Pad 1 [/B] of D19 on B.Cu
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; warning
+    @(136.1500 mm, 114.7700 mm): Circle on B.Mask
+    @(135.3350 mm, 113.7950 mm): Pad 1 [/D] of D10 on B.Cu
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; warning
+    @(127.8900 mm, 136.8600 mm): Circle on B.Mask
+    @(128.7150 mm, 137.7650 mm): Pad 1 [/A] of D23 on B.Cu
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; warning
+    @(132.0000 mm, 142.6300 mm): Circle on B.Mask
+    @(132.8150 mm, 143.6050 mm): Pad 1 [/D] of D15 on B.Cu
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; warning
+    @(131.9900 mm, 109.3300 mm): Circle on B.Mask
+    @(132.7900 mm, 108.4150 mm): Pad 2 [/A] of D14 on B.Cu
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; warning
+    @(136.1300 mm, 125.8100 mm): Circle on B.Mask
+    @(136.9750 mm, 126.7550 mm): Pad 1 [/B] of D20 on B.Cu
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; warning
+    @(140.2100 mm, 131.2000 mm): Circle on B.Mask
+    @(141.0050 mm, 132.0950 mm): Pad 1 [/C] of D16 on B.Cu
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; warning
+    @(119.5400 mm, 125.8100 mm): Circle on B.Mask
+    @(120.3850 mm, 126.7650 mm): Pad 1 [/A] of D22 on B.Cu
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; warning
+    @(127.9000 mm, 114.7700 mm): Circle on B.Mask
+    @(127.0850 mm, 113.7950 mm): Pad 1 [/E] of D5 on B.Cu
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; warning
+    @(140.2200 mm, 109.3200 mm): Circle on B.Mask
+    @(139.4350 mm, 108.4500 mm): Pad 1 [/C] of D13 on B.Cu
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; warning
+    @(127.8900 mm, 103.6500 mm): Circle on B.Mask
+    @(127.0650 mm, 102.7050 mm): Pad 1 [/C] of D12 on B.Cu
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; warning
+    @(144.3600 mm, 125.7800 mm): Circle on B.Mask
+    @(145.1500 mm, 126.6700 mm): Pad 1 [/C] of D17 on B.Cu
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; warning
+    @(158.0175 mm, 46.8000 mm): Circle on B.Mask
+    @(157.5800 mm, 48.2500 mm): Pad 2 [GND] of D26 on B.Cu
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; warning
+    @(158.0175 mm, 46.8000 mm): Circle on B.Mask
+    @(157.5800 mm, 48.2500 mm): Pad 2 [GND] of D26 on B.Cu
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; warning
+    @(158.0175 mm, 46.8000 mm): Circle on B.Mask
+    @(157.5800 mm, 48.2500 mm): Pad 2 [GND] of D26 on B.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; warning
+    @(132.2362 mm, 95.9734 mm): Polygon on F.Mask
+    @(132.9000 mm, 99.1960 mm): Reference 'G***'
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; warning
+    @(132.2362 mm, 95.9734 mm): Polygon on F.Mask
+    @(132.9000 mm, 99.1960 mm): Reference 'G***'
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; warning
+    @(132.2362 mm, 95.9734 mm): Polygon on F.Mask
+    @(132.9000 mm, 99.1960 mm): Reference 'G***'
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; warning
+    @(119.8377 mm, 123.8954 mm): Polygon on F.Mask
+    @(136.4007 mm, 124.9878 mm): Polygon on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; warning
+    @(132.2362 mm, 95.9734 mm): Polygon on F.Mask
+    @(132.9000 mm, 99.1960 mm): Reference 'G***'
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; warning
+    @(119.8377 mm, 123.8954 mm): Polygon on F.Mask
+    @(136.4007 mm, 124.9878 mm): Polygon on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; warning
+    @(132.2362 mm, 95.9734 mm): Polygon on F.Mask
+    @(132.9000 mm, 99.1960 mm): Reference 'G***'
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; warning
+    @(119.8377 mm, 123.8954 mm): Polygon on F.Mask
+    @(136.4007 mm, 124.9878 mm): Polygon on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; warning
+    @(132.2362 mm, 95.9734 mm): Polygon on F.Mask
+    @(132.9000 mm, 99.1960 mm): Reference 'G***'
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; warning
+    @(119.8377 mm, 123.8954 mm): Polygon on F.Mask
+    @(136.4007 mm, 124.9878 mm): Polygon on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; warning
+    @(132.2362 mm, 95.9734 mm): Polygon on F.Mask
+    @(132.9000 mm, 99.1960 mm): Reference 'G***'
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; warning
+    @(119.8377 mm, 123.8954 mm): Polygon on F.Mask
+    @(136.4007 mm, 124.9878 mm): Polygon on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; warning
+    @(119.8377 mm, 123.8954 mm): Polygon on F.Mask
+    @(136.4007 mm, 124.9878 mm): Polygon on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; warning
+    @(132.2362 mm, 95.9734 mm): Polygon on F.Mask
+    @(132.9000 mm, 99.1960 mm): Reference 'G***'
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; warning
+    @(119.8377 mm, 123.8954 mm): Polygon on F.Mask
+    @(136.4007 mm, 124.9878 mm): Polygon on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; warning
+    @(132.2362 mm, 95.9734 mm): Polygon on F.Mask
+    @(132.9000 mm, 99.1960 mm): Reference 'G***'
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; warning
+    @(132.2362 mm, 95.9734 mm): Polygon on F.Mask
+    @(132.9000 mm, 99.1960 mm): Reference 'G***'
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; warning
+    @(132.2362 mm, 95.9734 mm): Polygon on F.Mask
+    @(132.9000 mm, 99.1960 mm): Reference 'G***'
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; warning
+    @(119.8377 mm, 123.8954 mm): Polygon on F.Mask
+    @(136.4007 mm, 124.9878 mm): Polygon on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; warning
+    @(119.8377 mm, 123.8954 mm): Polygon on F.Mask
+    @(136.4007 mm, 124.9878 mm): Polygon on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; warning
+    @(119.8377 mm, 123.8954 mm): Polygon on F.Mask
+    @(136.4007 mm, 124.9878 mm): Polygon on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; warning
+    @(132.2362 mm, 95.9734 mm): Polygon on F.Mask
+    @(132.9000 mm, 99.1960 mm): Reference 'G***'
+
+** Found 0 unconnected pads **
+
+** Found 0 Footprint errors **
+
+** End of Report **
