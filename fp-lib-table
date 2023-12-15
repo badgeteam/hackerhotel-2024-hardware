@@ -1,4 +1,6 @@
 (fp_lib_table
   (version 7)
   (lib (name "HH2024Artwork")(type "KiCad")(uri "${KIPRJMOD}/HH2024Artwork.pretty")(options "")(descr ""))
+  (lib (name "vfd")(type "KiCad")(uri "${KIPRJMOD}/vfd.pretty")(options "")(descr ""))
+  (lib (name "hh24")(type "KiCad")(uri "${KIPRJMOD}/hh24.pretty")(options "")(descr ""))
 )

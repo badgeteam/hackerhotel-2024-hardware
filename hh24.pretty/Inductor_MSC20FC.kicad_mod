@@ -1,0 +1,270 @@
+(footprint "Inductor_MSC20FC"
+	(version 20231014)
+	(generator "pcbnew")
+	(generator_version "7.99")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 2.032 0 180)
+		(layer "F.SilkS")
+		(uuid "ae1d6795-08e9-4c70-97b4-d79e929c1696")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "2.2u"
+		(at 0.4 -2 180)
+		(layer "F.Fab")
+		(uuid "cbed2a3d-3eec-43e0-b202-30b3331307c0")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "tanoshii:Inductor_MSC20FC"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "B.Fab")
+		(hide yes)
+		(uuid "b603fa2d-6a3e-4e76-b883-521017929e0b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1912111437_PSA-Prosperity-Dielectrics-MCS20FC-2R2MHC_C375944.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "B.Fab")
+		(hide yes)
+		(uuid "ca0f8daf-80d6-4ecf-a21e-dbdd8d43fd17")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "B.Fab")
+		(hide yes)
+		(uuid "7dc9a2a6-a772-4ddb-9bed-bbe43938ef4b")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+			)
+			(justify mirror)
+		)
+	)
+	(property "LCSC" "C375944"
+		(at 0 0 -90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bace1f12-ea98-4617-8d34-edbbd57c4e29")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Buy early" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "eea0f272-1f7f-4984-ad4a-3487ec6aed76")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Category" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f8fcbbee-b329-4521-82e3-faa7b5da2da2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MANUFACTURER" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5fa1cfe3-057a-43bf-8b0f-6e7db03dfa97")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MPN" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2644eb27-21d2-42f8-b716-458c02e353cf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a9e76096-32b7-4170-ace4-0954896ca8f9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b6f3452a-3589-4864-878f-a62f21174030")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Price" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "371302f4-6492-46e0-b5ea-14f65cfb6d19")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Quantity" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "217a6fc4-f093-47e2-8d83-e53954537707")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Sponsored" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cce72d11-2f1b-4dec-8e4e-53e0e1b05044")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Field-1" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "90066f55-f2a3-4d4f-9800-109ed8c0d564")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Link" "https://www.lcsc.com/product-detail/Power-Inductors_PSA-Prosperity-Dielectrics-MCS20FC-2R2MHC_C375944.html"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "edf60a97-a468-4be2-97c4-66a7c13730a2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.9 -0.9)
+		(end 0.95 -0.9)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6c217214-7212-4d90-a497-d4c896fcd0b3")
+	)
+	(fp_line
+		(start -0.9 -0.9)
+		(end -0.95 -0.9)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e4fd4223-0c8d-496e-8709-1195db956724")
+	)
+	(fp_line
+		(start -0.95 0.9)
+		(end 0.95 0.9)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3c3bcb2b-10ec-4f08-a98e-c2dc368a6fc8")
+	)
+	(pad "1" smd roundrect
+		(at -0.725 0 180)
+		(size 0.55 1.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "1761e312-7a18-4433-99a7-fee11f6c658b")
+	)
+	(pad "2" smd roundrect
+		(at 0.725 0 180)
+		(size 0.55 1.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "d0484b49-be6f-44ed-864b-6d862a030e0f")
+	)
+)

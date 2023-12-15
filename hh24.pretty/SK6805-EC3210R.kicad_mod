@@ -1,0 +1,160 @@
+(footprint "SK6805-EC3210R"
+	(version 20231014)
+	(generator "pcbnew")
+	(generator_version "7.99")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 4.047 2.276 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "d7cbe4ac-2c3b-41f7-9316-e2fb5b4112a0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SK6805"
+		(at 0 1 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5c0c95cc-590b-490d-ad72-1a432af311e8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "BamboulabFootprints:SK6805-EC3210R"
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ee4d3ae5-8b0a-45d3-a635-4f474eb84d6d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/3484/3484_Datasheet.pdf"
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a9ec53c3-9a6b-4846-ac81-6cd5f9bd2c82")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "RGB LED with integrated controller"
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "671f9f65-159a-4dcb-88d7-658c3c81098c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "LCSC" "C5378735"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "509de628-6766-4c5a-996c-bcb8b8dd66b9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Link" "https://www.lcsc.com/product-detail/Light-Emitting-Diodes-LED_OPSCO-Optoelectronics-SK6805-EC3210R_C5378735.html#"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "386ebab2-22a3-410e-889e-873f36e03d9e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -1.6 0.2)
+		(end 1.6 0.7)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "Eco1.User")
+		(uuid "5845ea86-63fa-4e8b-b32d-3fb579d6473c")
+	)
+	(fp_arc
+		(start 1 0.7)
+		(mid 0 1.7)
+		(end -1 0.7)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Eco1.User")
+		(uuid "08509914-bd7e-4d85-9aed-06040c34e74e")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "21abc485-ea36-4a50-a66f-38a882697ebe")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.505 0.25 180)
+		(size 0.7 1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "bc5be0bb-8f50-4b3a-8e46-e87688954e8c")
+	)
+	(pad "2" smd rect
+		(at -0.425 0 180)
+		(size 0.5 0.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "4ba836c6-85e0-42e8-9f67-04aff57928b2")
+	)
+	(pad "3" smd rect
+		(at 1.505 0.25 180)
+		(size 0.7 1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "37671aad-f420-4a58-895b-249d1009ee14")
+	)
+	(pad "4" smd rect
+		(at 0.425 0 180)
+		(size 0.5 0.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "00f4c4ef-f1b4-416e-876f-15754f4267c9")
+	)
+)
