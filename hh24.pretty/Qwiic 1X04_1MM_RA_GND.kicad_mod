@@ -1,0 +1,202 @@
+(footprint "Qwiic 1X04_1MM_RA_GND"
+	(version 20231014)
+	(generator "pcbnew")
+	(generator_version "7.99")
+	(layer "F.Cu")
+	(descr "SMD- 4 PIN RIGHT ANGLE")
+	(tags "SMD- 4 PIN RIGHT ANGLE")
+	(property "Reference" "REF**"
+		(at 0 -1.529715 270)
+		(layer "F.SilkS")
+		(uuid "ab982808-ee17-46b3-bd4f-8eb3c906b269")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.127)
+			)
+		)
+	)
+	(property "Value" "QWIIC"
+		(at 3.683 0.889 270)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "f287f147-fb65-4222-9fc0-0a20ce20aa83")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.127)
+			)
+		)
+	)
+	(property "Footprint" "BamboulabFootprints:Qwiic 1X04_1MM_RA_GND"
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "B.Fab")
+		(hide yes)
+		(uuid "784d1ecb-e1c6-4a80-bdec-194e2cf628e9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1811151533_JST-Sales-America-SM04B-SRSS-TB-LF-SN_C160404.pdf"
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "B.Fab")
+		(hide yes)
+		(uuid "c6ec70c8-4837-433b-b7ac-708b2d446b09")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "B.Fab")
+		(hide yes)
+		(uuid "f06d272f-90ad-46d1-b258-6424d6203e9e")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+			)
+			(justify mirror)
+		)
+	)
+	(property "LCSC" "C160404"
+		(at 0 0 270)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "846f7831-8f69-4d9b-bfba-d1b747082f7c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Link" "https://www.lcsc.com/product-detail/Wire-To-Board-Wire-To-Wire-Connector_JST-SM04B-SRSS-TB-LF-SN_C160404.html"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "41fb15b6-45fb-4c44-8c56-ed3fea686ef6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start 2.99974 1.99898)
+		(end 2.99974 0.34798)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4edad905-a752-428f-8bfa-e89f1be9cec7")
+	)
+	(fp_line
+		(start 2.99974 0.34798)
+		(end 2.2479 0.34798)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "29b11f2b-1530-4893-8a7d-dfd04ddc265e")
+	)
+	(fp_line
+		(start 1.4986 4.59994)
+		(end -1.4986 4.59994)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c24599a3-cfed-4a86-bace-1569a72663ee")
+	)
+	(fp_line
+		(start -2.2479 0.34798)
+		(end -2.99974 0.34798)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "aa43e7d9-3d2b-4664-892c-ae40b11bade8")
+	)
+	(fp_line
+		(start -2.99974 0.34798)
+		(end -2.99974 1.99898)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e45190d4-8104-4f60-9d21-9f28b2c03ee6")
+	)
+	(fp_circle
+		(center -2.49936 -0.29972)
+		(end -2.49936 -0.43942)
+		(stroke
+			(width 0.39878)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "c5dfc65e-aaa8-4a07-97e1-e198494b114c")
+	)
+	(pad "1" smd rect
+		(at -1.4986 0)
+		(size 0.59944 1.34874)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.1016)
+		(uuid "fc99a8f9-878d-4130-bbf9-81d55574dbaa")
+	)
+	(pad "2" smd rect
+		(at -0.49784 0)
+		(size 0.59944 1.34874)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.1016)
+		(uuid "1e07bb81-d3b3-4a4d-8f80-092008d66f12")
+	)
+	(pad "3" smd rect
+		(at 0.49784 0)
+		(size 0.59944 1.34874)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.1016)
+		(uuid "a15719e9-6c7c-489c-8886-5320afc43854")
+	)
+	(pad "4" smd rect
+		(at 1.4986 0)
+		(size 0.59944 1.34874)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.1016)
+		(uuid "a0bc1b64-e13e-4ef4-8194-48809aa458d1")
+	)
+	(pad "5" smd rect
+		(at -2.79908 3.67284)
+		(size 1.19888 1.99898)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.1016)
+		(uuid "e52e1d26-9159-4f10-b3e0-c636149c4892")
+	)
+	(pad "6" smd rect
+		(at 2.79908 3.67284)
+		(size 1.19888 1.99898)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.1016)
+		(uuid "c212e29b-4e0c-43bd-9f81-8f2bc2f07079")
+	)
+)

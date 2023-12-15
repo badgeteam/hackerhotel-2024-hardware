@@ -1,0 +1,326 @@
+(footprint "HRS1H-S-DC3V"
+	(version 20231014)
+	(generator "pcbnew")
+	(generator_version "7.99")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -1.397 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "1c239749-cfe2-4cc9-90f0-bf46cc38b211")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SANYOU_SRD_Form_C"
+		(at 0 1 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "2d5d5518-0fac-4401-8d2d-44ec17213db6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "BamboulabFootprints:HRS1H-S-DC3V"
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9843ca46-3d82-4c48-9691-970850528551")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1809291620_Zhejiang-HKE-HRS1H-S-DC3V_C136110.pdf"
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "550dfde5-9492-4e2a-839b-b91f0ee667a9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "60602af2-f23b-4d9c-b2cb-d176f6797e32")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Buy early" ""
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5e2bc466-8dd6-4099-b55e-81201f52afe6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Category" ""
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a222221e-e227-419d-bfc7-eee6b7c66e55")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MANUFACTURER" ""
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3e0d9946-0c85-4c1a-a7e2-5398ce2453cb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MPN" ""
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c21ae63a-1fb2-4b5a-b145-3bc0317226ec")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer" ""
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "32cbe202-66ea-46ad-8019-494f9c7f432d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser" ""
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "31889f1b-999b-4067-8a8f-a0a6c0deb7aa")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Price" ""
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "67cf9dfe-5652-48cd-9fa8-1c3178531205")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Quantity" ""
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b23ead29-6c7a-4f2a-858e-ada683966de2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Sponsored" ""
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a26f8582-6767-43e5-8948-e8c4c90fd3d9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Field-1" ""
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6dcb0bb5-b9d6-4a3e-8406-3a514c2dd831")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Link" "https://www.lcsc.com/product-detail/Signal-Relays_Zhejiang-HKE-HRS1H-S-DC3V_C136110.html"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "38af4bff-7cab-4679-a8d6-2628e5648373")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "LCSC" "C136110"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f25204d9-b1b2-4745-9bf5-cd53e8c1d4d5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start 7.719 -5.181)
+		(end 7.719 5.219)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3c644b8c-70df-4104-b6cd-4f2cd0af77a2")
+	)
+	(fp_line
+		(start -7.681 5.229)
+		(end 7.719 5.229)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "961758c3-bb60-4b1d-b097-3d059d103910")
+	)
+	(fp_line
+		(start -7.701 -5.171)
+		(end -7.701 5.229)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a4f5664b-26ec-4789-a67f-be1fce4069c9")
+	)
+	(fp_line
+		(start -7.701 -5.181)
+		(end 7.699 -5.181)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f1e6b201-ace6-4814-a605-dce720f20254")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "a79865e7-6993-4128-a81e-84028b8e9e4b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -6.35 3.81 180)
+		(size 2 2)
+		(drill 1.3)
+		(layers "*.Cu" "*.Paste" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "42eec140-733d-4c75-a6c2-c78b399ee2d4")
+	)
+	(pad "2" thru_hole circle
+		(at 3.81 3.81 180)
+		(size 2 2)
+		(drill 1.3)
+		(layers "*.Cu" "*.Paste" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "4bf6052e-405e-46c1-b2e3-fe8c9d142fd8")
+	)
+	(pad "3" thru_hole circle
+		(at 6.35 3.81 180)
+		(size 2 2)
+		(drill 1.3)
+		(layers "*.Cu" "*.Paste" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "f2882cab-d297-4fea-abc2-93ed0676d38f")
+	)
+	(pad "4" thru_hole circle
+		(at 6.35 -3.81 180)
+		(size 2 2)
+		(drill 1.3)
+		(layers "*.Cu" "*.Paste" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "ada71184-949b-4ba1-84b6-46d343b5509e")
+	)
+	(pad "5" thru_hole circle
+		(at 3.81 -3.81 180)
+		(size 2 2)
+		(drill 1.3)
+		(layers "*.Cu" "*.Paste" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "921f59aa-661c-43dd-9767-34fa9b04bbb6")
+	)
+	(pad "6" thru_hole circle
+		(at -6.35 -3.81 180)
+		(size 2 2)
+		(drill 1.3)
+		(layers "*.Cu" "*.Paste" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "fb513be3-516e-48c8-aa3a-c1c4867317d3")
+	)
+)
