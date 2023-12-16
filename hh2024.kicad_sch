@@ -7973,7 +7973,7 @@
 		)
 		(uuid "5e9e903b-7276-4b22-8178-3c3b1a7e7b3e")
 	)
-	(text "Top (orange)"
+	(text "Top\n"
 		(exclude_from_sim no)
 		(at 32.512 69.342 0)
 		(effects
@@ -8083,7 +8083,7 @@
 		)
 		(uuid "b40f3990-60e7-4723-9f40-0f4746767604")
 	)
-	(text "Bottom (Yellow)"
+	(text "Bottom"
 		(exclude_from_sim no)
 		(at 98.552 124.46 0)
 		(effects
@@ -16394,7 +16394,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "cee9b49c-337d-4ebd-aeae-060ad497b175")
 		(property "Reference" "J7"
 			(at 139.7 39.3699 90)
@@ -16406,7 +16405,7 @@
 			)
 		)
 		(property "Value" "RELAY"
-			(at 139.7 41.9099 90)
+			(at 131.826 38.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
