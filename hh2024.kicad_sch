@@ -286,6 +286,174 @@
 				)
 			)
 		)
+		(symbol "Connector_Generic:Conn_01x03"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x03"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x03_1_1"
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 3.81)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:LED_Small"
 			(pin_numbers hide)
 			(pin_names
@@ -5187,6 +5355,16 @@
 	)
 	(wire
 		(pts
+			(xy 134.62 46.99) (xy 140.97 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d021944-f202-4e42-bb37-2296bf950d6c")
+	)
+	(wire
+		(pts
 			(xy 92.71 81.28) (xy 95.25 81.28)
 		)
 		(stroke
@@ -6367,6 +6545,16 @@
 	)
 	(wire
 		(pts
+			(xy 132.08 45.72) (xy 132.08 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7dc10996-d622-4ab6-bb85-7bb12a80b23a")
+	)
+	(wire
+		(pts
 			(xy 247.65 101.6) (xy 247.65 100.33)
 		)
 		(stroke
@@ -6544,6 +6732,16 @@
 			(type default)
 		)
 		(uuid "91926b0a-5a93-4347-b15e-cc5b0cac489e")
+	)
+	(wire
+		(pts
+			(xy 134.62 45.72) (xy 134.62 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "920454aa-aed3-4b52-80f4-83968f4a3d54")
 	)
 	(wire
 		(pts
@@ -7177,6 +7375,16 @@
 	)
 	(wire
 		(pts
+			(xy 140.97 63.5) (xy 134.62 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c606523b-0af1-4a05-acb5-e2a971ce9071")
+	)
+	(wire
+		(pts
 			(xy 260.35 114.3) (xy 262.89 114.3)
 		)
 		(stroke
@@ -7264,6 +7472,16 @@
 			(type default)
 		)
 		(uuid "d1cf0e6d-e0ac-4f62-95ec-f832233671a5")
+	)
+	(wire
+		(pts
+			(xy 140.97 46.99) (xy 140.97 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d267fa6c-bf59-489e-9a9f-1639737a56ed")
 	)
 	(wire
 		(pts
@@ -7664,6 +7882,16 @@
 			(type default)
 		)
 		(uuid "fc33fee6-47b0-4d1d-920c-c87a77e5f58b")
+	)
+	(wire
+		(pts
+			(xy 137.16 45.72) (xy 137.16 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd03c62f-bde1-47f1-b326-d7ea0bdce7ba")
 	)
 	(wire
 		(pts
@@ -9121,6 +9349,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field-1" ""
+			(at 267.97 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "A1"
 			(uuid "8a979083-6b47-4e5c-b539-80d777857881")
 		)
@@ -9327,6 +9564,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field-1" ""
+			(at 245.11 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "67bba064-96d9-4baa-8fab-30fc7ce1572a")
 		)
@@ -9414,6 +9660,15 @@
 			)
 		)
 		(property "Link" "https://www.lcsc.com/product-detail/Chip-span-style-background-color-ff0-Resistor-span-Surface-Mount_FOJAN-FRC0805J512TS_C2930296.html"
+			(at 245.11 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
 			(at 245.11 27.94 0)
 			(effects
 				(font
@@ -9717,6 +9972,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field-1" ""
+			(at 245.11 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0c460b73-2248-41ab-9b4f-ccbca4318d95")
 		)
@@ -9852,6 +10116,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field-1" ""
+			(at 271.78 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9212940d-b3a0-461e-8e37-5c8f122359e9")
 		)
@@ -9911,6 +10184,15 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 256.54 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
 			(at 256.54 149.86 0)
 			(effects
 				(font
@@ -10003,6 +10285,15 @@
 			)
 		)
 		(property "LCSC" "C965861"
+			(at 69.85 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
 			(at 69.85 81.28 0)
 			(effects
 				(font
@@ -10171,6 +10462,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field-1" ""
+			(at 31.75 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0fa07f1b-baac-49e3-9081-73e6cca45ad9")
 		)
@@ -10331,6 +10631,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field-1" ""
+			(at 168.91 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7211e9c8-c670-4d43-8ffc-606c61e1cdb4")
 		)
@@ -10393,6 +10702,15 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 248.92 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
 			(at 248.92 68.58 0)
 			(effects
 				(font
@@ -10526,6 +10844,15 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 256.54 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
 			(at 256.54 76.2 0)
 			(effects
 				(font
@@ -10729,7 +11056,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C5140188 "
+		(property "LCSC" "C5140188"
 			(at 167.64 121.92 0)
 			(effects
 				(font
@@ -10748,6 +11075,15 @@
 			)
 		)
 		(property "Link" "https://www.lcsc.com/product-detail/Chip-span-style-background-color-ff0-Resistor-span-Surface-Mount_VO-SCR0805J10K_C5140188.html"
+			(at 167.64 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
 			(at 167.64 121.92 0)
 			(effects
 				(font
@@ -10981,6 +11317,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field-1" ""
+			(at 31.75 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f8757b4e-69b8-491c-9b75-2116becc2cfd")
 		)
@@ -11068,6 +11413,15 @@
 			)
 		)
 		(property "LCSC" "C965861"
+			(at 59.69 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
 			(at 59.69 73.66 0)
 			(effects
 				(font
@@ -11171,6 +11525,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field-1" ""
+			(at 69.85 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "64687f27-d12a-4308-8359-7cdea7a4a53e")
 		)
@@ -11258,6 +11621,15 @@
 			)
 		)
 		(property "LCSC" "C965861"
+			(at 59.69 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
 			(at 59.69 104.14 0)
 			(effects
 				(font
@@ -11354,6 +11726,15 @@
 			)
 		)
 		(property "LCSC" "C318951"
+			(at 96.52 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
 			(at 96.52 168.91 0)
 			(effects
 				(font
@@ -11536,6 +11917,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field-1" ""
+			(at 127 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8cdbeed1-1da7-4c6a-8f89-62d83cac4200")
 		)
@@ -11626,6 +12016,15 @@
 			)
 		)
 		(property "LCSC" "C965861"
+			(at 90.17 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
 			(at 90.17 81.28 0)
 			(effects
 				(font
@@ -11794,6 +12193,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field-1" ""
+			(at 31.75 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "62de172e-6496-4a06-891a-b8454f30ec67")
 		)
@@ -11856,6 +12264,15 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 242.57 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
 			(at 242.57 149.86 0)
 			(effects
 				(font
@@ -11929,7 +12346,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C5140188 "
+		(property "LCSC" "C5140188"
 			(at 24.13 158.75 0)
 			(effects
 				(font
@@ -11948,6 +12365,15 @@
 			)
 		)
 		(property "Link" "https://www.lcsc.com/product-detail/Chip-span-style-background-color-ff0-Resistor-span-Surface-Mount_VO-SCR0805J10K_C5140188.html"
+			(at 24.13 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
 			(at 24.13 158.75 0)
 			(effects
 				(font
@@ -12107,6 +12533,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field-1" ""
+			(at 238.76 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4d56d955-654b-4b79-a808-0e6de17bab08")
 		)
@@ -12194,6 +12629,15 @@
 			)
 		)
 		(property "LCSC" "C965861"
+			(at 80.01 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
 			(at 80.01 73.66 0)
 			(effects
 				(font
@@ -12297,6 +12741,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field-1" ""
+			(at 31.75 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "cb970c99-ca66-4d78-811c-793f0a7f32a6")
 		)
@@ -12392,6 +12845,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field-1" ""
+			(at 176.53 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "492b317a-b208-4b43-98a1-9b3d2c9c8cf7")
 		)
@@ -12479,6 +12941,15 @@
 			)
 		)
 		(property "LCSC" "C965861"
+			(at 90.17 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
 			(at 90.17 88.9 0)
 			(effects
 				(font
@@ -12649,6 +13120,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field-1" ""
+			(at 115.57 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5d3be0de-c266-4b34-8ffe-f419e1b63a56")
 		)
@@ -12795,6 +13275,15 @@
 			)
 		)
 		(property "LCSC" "C136110"
+			(at 129.54 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
 			(at 129.54 55.88 0)
 			(effects
 				(font
@@ -12972,6 +13461,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field-1" ""
+			(at 80.01 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "87ea9873-6cf8-4bbd-9ddb-e6a90004073d")
 		)
@@ -13067,6 +13565,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field-1" ""
+			(at 80.01 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "5a681ebb-06dc-4f25-9d2a-c7a113fde13b")
 		)
@@ -13144,6 +13651,15 @@
 			)
 		)
 		(property "Link" "https://www.lcsc.com/product-detail/Buffer-Driver-Transceiver_Nexperia-74LVC1G125GW-125_C12519.html"
+			(at 234.95 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
 			(at 234.95 68.58 0)
 			(effects
 				(font
@@ -13321,6 +13837,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field-1" ""
+			(at 49.53 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "fcb83583-9c28-4064-99f0-3db2426e5098")
 		)
@@ -13416,6 +13941,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field-1" ""
+			(at 49.53 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "f4ebf39a-31fc-4076-ab09-97df683c9f75")
 		)
@@ -13502,6 +14036,15 @@
 			)
 		)
 		(property "Link" "https://www.lcsc.com/product-detail/Chip-span-style-background-color-ff0-Resistor-span-Surface-Mount_VO-SCR0805J1K_C3017842.html"
+			(at 142.24 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
 			(at 142.24 71.12 0)
 			(effects
 				(font
@@ -13605,6 +14148,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field-1" ""
+			(at 59.69 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "883a8727-6fad-4416-b50d-98ba3dc82091")
 		)
@@ -13694,6 +14246,15 @@
 			)
 		)
 		(property "Link" "https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_TORCH-C0805B104K500NT_C476766.html"
+			(at 280.67 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
 			(at 280.67 115.57 0)
 			(effects
 				(font
@@ -13851,6 +14412,15 @@
 			)
 		)
 		(property "Link" "https://www.lcsc.com/product-detail/SD-Card-Connectors_SOFNG-TF-002X-H18_C125814.html"
+			(at 199.39 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
 			(at 199.39 132.08 0)
 			(effects
 				(font
@@ -14040,6 +14610,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field-1" ""
+			(at 31.75 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2251a437-dae6-450f-b720-f1e8b896b779")
 		)
@@ -14117,6 +14696,15 @@
 			)
 		)
 		(property "Link" "https://www.lcsc.com/product-detail/Microcontroller-Units-MCUs-MPUs-SOCs_WCH-Jiangsu-Qin-Heng-CH32V003F4U6_C5299908.html"
+			(at 247.65 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
 			(at 247.65 114.3 0)
 			(effects
 				(font
@@ -14463,6 +15051,15 @@
 			)
 		)
 		(property "Link" "https://www.lcsc.com/product-detail/Light-Emitting-Diodes-LED_OPSCO-Optoelectronics-SK6805-EC3210R_C5378735.html#"
+			(at 256.54 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
 			(at 256.54 68.58 0)
 			(effects
 				(font
@@ -14898,6 +15495,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field-1" ""
+			(at 90.17 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "cd301e13-8ad8-4f89-ab49-2c351f7e3e54")
 		)
@@ -14994,6 +15600,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field-1" ""
+			(at 33.02 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "02211deb-6706-4b3a-8ce0-022e92dc7220")
 		)
@@ -15074,7 +15689,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C5140188 "
+		(property "LCSC" "C5140188"
 			(at 238.76 78.74 0)
 			(effects
 				(font
@@ -15093,6 +15708,15 @@
 			)
 		)
 		(property "Link" "https://www.lcsc.com/product-detail/Chip-span-style-background-color-ff0-Resistor-span-Surface-Mount_VO-SCR0805J10K_C5140188.html"
+			(at 238.76 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
 			(at 238.76 78.74 0)
 			(effects
 				(font
@@ -15169,7 +15793,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C5140188 "
+		(property "LCSC" "C5140188"
 			(at 24.13 153.67 0)
 			(effects
 				(font
@@ -15188,6 +15812,15 @@
 			)
 		)
 		(property "Link" "https://www.lcsc.com/product-detail/Chip-span-style-background-color-ff0-Resistor-span-Surface-Mount_VO-SCR0805J10K_C5140188.html"
+			(at 24.13 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
 			(at 24.13 153.67 0)
 			(effects
 				(font
@@ -15356,6 +15989,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field-1" ""
+			(at 59.69 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "ba3314dc-dc27-4d9f-b20c-d29fab1bb1fe")
 		)
@@ -15426,6 +16068,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field-1" ""
+			(at 250.19 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "cf85f057-fe89-43c7-8c4c-1f7ccbffbe99")
 		)
@@ -15485,6 +16136,15 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 256.54 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
 			(at 256.54 60.96 0)
 			(effects
 				(font
@@ -15586,6 +16246,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field-1" ""
+			(at 160.02 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "513fe80a-8833-4863-a8ee-ec362b0b39f7")
 		)
@@ -15666,7 +16335,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C5140188 "
+		(property "LCSC" "C5140188"
 			(at 24.13 148.59 0)
 			(effects
 				(font
@@ -15693,6 +16362,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field-1" ""
+			(at 24.13 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "32305eba-6261-47e5-88b6-d185ef472967")
 		)
@@ -15703,6 +16381,79 @@
 			(project "hh2024"
 				(path "/5f312b85-6822-40a3-b417-2df49696ca2d"
 					(reference "R30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x03")
+		(at 134.62 40.64 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cee9b49c-337d-4ebd-aeae-060ad497b175")
+		(property "Reference" "J7"
+			(at 139.7 39.3699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "RELAY"
+			(at 139.7 41.9099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+			(at 134.62 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 134.62 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 134.62 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "fcdb1e74-fbae-45a6-8cc8-c80681087c6e")
+		)
+		(pin "1"
+			(uuid "f9a7e485-b17c-4da7-829e-21a4ddf2149e")
+		)
+		(pin "3"
+			(uuid "5446520c-2852-4eca-8de1-0a501d8fddc5")
+		)
+		(instances
+			(project "hh2024"
+				(path "/5f312b85-6822-40a3-b417-2df49696ca2d"
+					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -15854,6 +16605,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field-1" ""
+			(at 64.77 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "aed1c344-22d5-4688-a2f0-869a7d0373f5")
 		)
@@ -15962,6 +16722,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field-1" ""
+			(at 149.86 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "4bafe0c2-31df-433a-b254-5acf4ce9cf5d")
 		)
@@ -16036,6 +16805,15 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 242.57 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
 			(at 242.57 129.54 0)
 			(effects
 				(font
@@ -16128,6 +16906,15 @@
 			)
 		)
 		(property "LCSC" "C965861"
+			(at 49.53 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
 			(at 49.53 96.52 0)
 			(effects
 				(font
@@ -16231,6 +17018,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field-1" ""
+			(at 69.85 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "a0018bb0-c7cb-4284-9582-e80f5a3494a1")
 		)
@@ -16309,6 +17105,15 @@
 			)
 		)
 		(property "Link" "https://www.lcsc.com/product-detail/Wire-To-Board-Wire-To-Wire-Connector_JST-SM04B-SRSS-TB-LF-SN_C160404.html"
+			(at 109.22 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
 			(at 109.22 34.29 0)
 			(effects
 				(font
@@ -16424,6 +17229,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field-1" ""
+			(at 49.53 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "b1102258-2202-4c5d-850f-3e2da74c91af")
 		)
@@ -16511,6 +17325,15 @@
 			)
 		)
 		(property "LCSC" "C965861"
+			(at 69.85 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
 			(at 69.85 73.66 0)
 			(effects
 				(font
@@ -16607,6 +17430,15 @@
 			)
 		)
 		(property "LCSC" "C318951"
+			(at 128.27 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
 			(at 128.27 168.91 0)
 			(effects
 				(font
@@ -16714,6 +17546,15 @@
 			)
 		)
 		(property "LCSC" "C965861"
+			(at 90.17 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
 			(at 90.17 96.52 0)
 			(effects
 				(font
@@ -16874,6 +17715,15 @@
 			)
 		)
 		(property "LCSC" "C965861"
+			(at 80.01 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
 			(at 80.01 104.14 0)
 			(effects
 				(font

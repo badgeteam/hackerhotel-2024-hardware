@@ -12,22 +12,13 @@
 		(comment 1 "License: CERN Open Hardware Licence Version 2 - Permissive")
 	)
 	(lib_symbols
-		(symbol "Connector:TestPoint"
-			(pin_numbers hide)
+		(symbol "Connector_Generic:Conn_01x04"
 			(pin_names
-				(offset 0.762) hide)
+				(offset 1.016) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "TP"
-				(at 0 6.858 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "TestPoint"
+			(property "Reference" "J"
 				(at 0 5.08 0)
 				(effects
 					(font
@@ -35,8 +26,16 @@
 					)
 				)
 			)
+			(property "Value" "Conn_01x04"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
 			(property "Footprint" ""
-				(at 5.08 0 0)
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -45,15 +44,6 @@
 				)
 			)
 			(property "Datasheet" "~"
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "test point"
 				(at 0 0 0)
 				(effects
 					(font
@@ -62,7 +52,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "test point tp"
+			(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
 				(at 0 0 0)
 				(effects
 					(font
@@ -71,7 +61,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "Pin* Test*"
+			(property "ki_keywords" "connector"
 				(at 0 0 0)
 				(effects
 					(font
@@ -80,24 +70,75 @@
 					(hide yes)
 				)
 			)
-			(symbol "TestPoint_0_1"
-				(circle
-					(center 0 3.302)
-					(radius 0.762)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x04_1_1"
+				(rectangle
+					(start -1.27 -4.953)
+					(end 0 -5.207)
 					(stroke
-						(width 0)
+						(width 0.1524)
 						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
-			)
-			(symbol "TestPoint_1_1"
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 3.81)
+					(end 1.27 -6.35)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
 				(pin passive line
-					(at 0 0 90)
-					(length 2.54)
-					(name "1"
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -105,6 +146,60 @@
 						)
 					)
 					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1226,6 +1321,16 @@
 	)
 	(wire
 		(pts
+			(xy 220.98 93.98) (xy 231.14 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01a9dadc-4a87-40f5-aee0-dae6361a0b6e")
+	)
+	(wire
+		(pts
 			(xy 173.99 104.14) (xy 172.72 104.14)
 		)
 		(stroke
@@ -1253,6 +1358,16 @@
 			(type default)
 		)
 		(uuid "2ae35edd-2be0-4c4f-922a-7fe1d3129c51")
+	)
+	(wire
+		(pts
+			(xy 220.98 93.98) (xy 220.98 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31d0ac77-565d-4e2c-a016-7262ff757e18")
 	)
 	(wire
 		(pts
@@ -1286,7 +1401,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 86.36) (xy 186.69 86.36)
+			(xy 177.8 86.36) (xy 220.98 86.36)
 		)
 		(stroke
 			(width 0)
@@ -1326,6 +1441,16 @@
 	)
 	(wire
 		(pts
+			(xy 172.72 106.68) (xy 220.98 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72b2eb83-85fd-4461-86dc-9303949e4ffc")
+	)
+	(wire
+		(pts
 			(xy 201.93 92.71) (xy 201.93 91.44)
 		)
 		(stroke
@@ -1343,16 +1468,6 @@
 			(type default)
 		)
 		(uuid "7a6cb216-75ac-442a-a3fb-22ff42a5111f")
-	)
-	(wire
-		(pts
-			(xy 173.99 106.68) (xy 172.72 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7d0a51a1-b631-4843-ab2e-35853f83b2b6")
 	)
 	(wire
 		(pts
@@ -1483,6 +1598,26 @@
 			(type default)
 		)
 		(uuid "e839ab31-90f3-49b5-9330-278d9951facc")
+	)
+	(wire
+		(pts
+			(xy 220.98 91.44) (xy 231.14 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea50a494-7a76-40a5-9238-642f64748cf5")
+	)
+	(wire
+		(pts
+			(xy 220.98 91.44) (xy 220.98 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "edd2a025-c1e9-4b43-b43c-8104de0adc30")
 	)
 	(wire
 		(pts
@@ -1813,6 +1948,71 @@
 		(uuid "fafb7bb3-9a88-4b5b-bc8f-c8a5b2af4b7b")
 	)
 	(symbol
+		(lib_id "symbols2:GND")
+		(at 231.14 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1fe48da1-d999-4831-8fae-10b3e154aee6")
+		(property "Reference" "#PWR023"
+			(at 231.14 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 231.267 103.4542 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 231.14 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 231.14 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 231.14 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3c7e0d09-c1f0-4ecf-8b57-fc91af014abd")
+		)
+		(instances
+			(project "hh2024"
+				(path "/5f312b85-6822-40a3-b417-2df49696ca2d/6c7d4443-00e2-4496-9768-e5d745979ee2"
+					(reference "#PWR023")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "symbols:R")
 		(at 177.8 57.15 0)
 		(mirror y)
@@ -1865,7 +2065,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C5140188 "
+		(property "LCSC" "C5140188"
 			(at 177.8 57.15 0)
 			(effects
 				(font
@@ -1875,6 +2075,15 @@
 			)
 		)
 		(property "Link" "https://www.lcsc.com/product-detail/Chip-span-style-background-color-ff0-Resistor-span-Surface-Mount_VO-SCR0805J10K_C5140188.html"
+			(at 177.8 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
 			(at 177.8 57.15 0)
 			(effects
 				(font
@@ -1950,7 +2159,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C5140188 "
+		(property "LCSC" "C5140188"
 			(at 90.17 58.42 0)
 			(effects
 				(font
@@ -1960,6 +2169,15 @@
 			)
 		)
 		(property "Link" "https://www.lcsc.com/product-detail/Chip-span-style-background-color-ff0-Resistor-span-Surface-Mount_VO-SCR0805J10K_C5140188.html"
+			(at 90.17 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
 			(at 90.17 58.42 0)
 			(effects
 				(font
@@ -2047,6 +2265,15 @@
 			)
 		)
 		(property "Link" "https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_TORCH-C0805B104K500NT_C476766.html"
+			(at 76.2 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
 			(at 76.2 58.42 0)
 			(effects
 				(font
@@ -2201,6 +2428,71 @@
 		)
 	)
 	(symbol
+		(lib_id "symbols2:+3.3V")
+		(at 231.14 96.52 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "605628d9-b695-4440-847c-d09327dbfa44")
+		(property "Reference" "#PWR024"
+			(at 234.95 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 225.552 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 231.14 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 231.14 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 231.14 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "406818d6-47dc-4a28-96e2-1c310426ea51")
+		)
+		(instances
+			(project "hh2024"
+				(path "/5f312b85-6822-40a3-b417-2df49696ca2d/6c7d4443-00e2-4496-9768-e5d745979ee2"
+					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "symbols2:GND")
 		(at 144.78 130.81 0)
 		(unit 1)
@@ -2335,6 +2627,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field-1" ""
+			(at 201.93 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "55c05a42-6548-4f17-be86-4aa8d90292b4")
 		)
@@ -2345,6 +2646,82 @@
 			(project "hh2024"
 				(path "/5f312b85-6822-40a3-b417-2df49696ca2d/6c7d4443-00e2-4496-9768-e5d745979ee2"
 					(reference "R32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x04")
+		(at 236.22 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8cdaf97b-a661-4d5b-b4f7-148977ecdddc")
+		(property "Reference" "J8"
+			(at 238.76 93.9799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x04"
+			(at 238.76 96.5199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
+			(at 236.22 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 236.22 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 236.22 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "59cef97c-e635-4c55-b099-893fff6a123e")
+		)
+		(pin "2"
+			(uuid "947def73-8ada-420a-82e9-f7d5d606bb50")
+		)
+		(pin "1"
+			(uuid "c8a8ead8-1603-4d18-a954-b8cdffd64f1d")
+		)
+		(pin "4"
+			(uuid "123455af-0812-4c7e-aedb-51e11c2e2eab")
+		)
+		(instances
+			(project "hh2024"
+				(path "/5f312b85-6822-40a3-b417-2df49696ca2d/6c7d4443-00e2-4496-9768-e5d745979ee2"
+					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -2488,6 +2865,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field-1" ""
+			(at 90.17 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "224f57f0-b81e-41c3-8811-d31c153baea3")
 		)
@@ -2621,7 +3007,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C5140188 "
+		(property "LCSC" "C5140188"
 			(at 175.26 57.15 0)
 			(effects
 				(font
@@ -2631,6 +3017,15 @@
 			)
 		)
 		(property "Link" "https://www.lcsc.com/product-detail/Chip-span-style-background-color-ff0-Resistor-span-Surface-Mount_VO-SCR0805J10K_C5140188.html"
+			(at 175.26 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
 			(at 175.26 57.15 0)
 			(effects
 				(font
@@ -2850,73 +3245,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 186.69 86.36 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "bbdc5ef9-7e59-4302-93e3-231e2dd06d3b")
-		(property "Reference" "TP3"
-			(at 194.564 86.614 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 193.802 94.996 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
-			(at 186.69 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 186.69 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 186.69 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f88a5697-c2c6-4227-938a-638ef549ab58")
-		)
-		(instances
-			(project "hh2024"
-				(path "/5f312b85-6822-40a3-b417-2df49696ca2d/6c7d4443-00e2-4496-9768-e5d745979ee2"
-					(reference "TP3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "symbols:R")
 		(at 185.42 73.66 270)
 		(mirror x)
@@ -2979,6 +3307,15 @@
 			)
 		)
 		(property "Link" "https://www.lcsc.com/product-detail/Chip-span-style-background-color-ff0-Resistor-span-Surface-Mount_FOJAN-FRC0805J270-TS_C2907314.html"
+			(at 185.42 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
 			(at 185.42 73.66 0)
 			(effects
 				(font
@@ -3072,6 +3409,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field-1" ""
+			(at 185.42 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a0faab0a-5ab4-4741-87a6-0ce1c048b80e")
 		)
@@ -3152,6 +3498,15 @@
 			)
 		)
 		(property "Link" "https://www.espressif.com/en/products/socs/esp32-c6"
+			(at 144.78 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
 			(at 144.78 91.44 0)
 			(effects
 				(font
@@ -3251,73 +3606,6 @@
 			(project "hh2024"
 				(path "/5f312b85-6822-40a3-b417-2df49696ca2d/6c7d4443-00e2-4496-9768-e5d745979ee2"
 					(reference "U1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 173.99 106.68 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f99d94b8-4c91-47ed-a3fd-0cfafa080431")
-		(property "Reference" "TP5"
-			(at 182.372 106.934 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 181.102 115.316 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
-			(at 173.99 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 173.99 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 173.99 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "de2d3051-4882-47a5-a5d3-87bd70cfa7d5")
-		)
-		(instances
-			(project "hh2024"
-				(path "/5f312b85-6822-40a3-b417-2df49696ca2d/6c7d4443-00e2-4496-9768-e5d745979ee2"
-					(reference "TP5")
 					(unit 1)
 				)
 			)

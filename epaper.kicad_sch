@@ -2958,6 +2958,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field-1" ""
+			(at 182.88 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1a0cde6d-5619-45fc-96d8-1b94d13119d8")
 		)
@@ -3124,6 +3133,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field-1" ""
+			(at 106.68 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c6f351ae-ddc7-4b03-b18a-d1abdc741b80")
 		)
@@ -3220,6 +3238,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field-1" ""
+			(at 114.3 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "17c80e68-c283-44c6-90b0-72660aab4b7f")
 		)
@@ -3307,6 +3334,15 @@
 			)
 		)
 		(property "Link" "https://www.lcsc.com/product-detail/Schottky-Barrier-Diodes-SBD_onsemi-NSR0320MW2T1G_C48192.html"
+			(at 107.95 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
 			(at 107.95 109.22 0)
 			(effects
 				(font
@@ -3476,6 +3512,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field-1" ""
+			(at 158.75 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6d4451ff-9004-440e-aad7-56bfde3290bf")
 		)
@@ -3636,6 +3681,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field-1" ""
+			(at 114.3 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "aca981dd-05f6-4b57-b5cf-0ab53fdcf3e9")
 		)
@@ -3724,6 +3778,15 @@
 			)
 		)
 		(property "Link" "https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_CCTC-TCC0805X7R105M500FT_C376929.html"
+			(at 132.08 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
 			(at 132.08 128.27 0)
 			(effects
 				(font
@@ -3821,6 +3884,15 @@
 			)
 		)
 		(property "Link" "https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_CCTC-TCC0805X7R105M500FT_C376929.html"
+			(at 91.44 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
 			(at 91.44 130.81 0)
 			(effects
 				(font
@@ -4121,6 +4193,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field-1" ""
+			(at 87.63 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7e8fb5d9-5c44-497f-9d69-e53e4e15ca3e")
 		)
@@ -4210,6 +4291,15 @@
 			)
 		)
 		(property "Link" "https://www.lcsc.com/product-detail/MOSFETs_ALLPOWER-ShenZhen-Quan-Li-Semiconductor-AP2302B_C406812.html"
+			(at 109.22 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
 			(at 109.22 60.96 0)
 			(effects
 				(font
@@ -4317,6 +4407,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field-1" ""
+			(at 149.86 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d40c47a3-2aa9-4492-88ad-9a296ae9636b")
 		)
@@ -4405,6 +4504,15 @@
 			)
 		)
 		(property "Link" "https://www.lcsc.com/product-detail/Schottky-Barrier-Diodes-SBD_onsemi-NSR0320MW2T1G_C48192.html"
+			(at 95.25 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
 			(at 95.25 124.46 0)
 			(effects
 				(font
@@ -4509,6 +4617,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field-1" ""
+			(at 91.44 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ed974569-dab0-4ae4-8de2-23c5693619de")
 		)
@@ -4597,6 +4714,15 @@
 			)
 		)
 		(property "Link" ""
+			(at 96.52 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
 			(at 96.52 72.39 0)
 			(effects
 				(font
@@ -4829,6 +4955,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field-1" ""
+			(at 106.68 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ee064b24-fd76-4c6c-ba3b-e675000499b6")
 		)
@@ -4990,6 +5125,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field-1" ""
+			(at 123.19 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "37acbeea-5657-4945-8719-2e226e039b33")
 		)
@@ -5076,6 +5220,15 @@
 			)
 		)
 		(property "Link" "https://www.lcsc.com/product-detail/Chip-span-style-background-color-ff0-Resistor-span-Surface-Mount_FOJAN-FRC0805P000-TS_C2907288.html"
+			(at 140.97 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
 			(at 140.97 100.33 0)
 			(effects
 				(font
@@ -5376,6 +5529,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field-1" ""
+			(at 167.64 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a8395295-c5f0-42bb-9b2b-0e1aeba7ad9a")
 		)
@@ -5594,6 +5756,15 @@
 			)
 		)
 		(property "Link" "https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_CCTC-TCC0805X7R105M500FT_C376929.html"
+			(at 140.97 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
 			(at 140.97 128.27 0)
 			(effects
 				(font
