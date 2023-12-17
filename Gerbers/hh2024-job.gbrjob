@@ -3,19 +3,19 @@
     "GenerationSoftware": {
       "Vendor": "KiCad",
       "Application": "Pcbnew",
-      "Version": "7.99.0-3134-gf47cc39208"
+      "Version": "7.99.0-3954-g9b2cde9571"
     },
-    "CreationDate": "2023-12-05T20:49:35+00:00"
+    "CreationDate": "2023-12-17T19:52:25+01:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
       "Name": "hh2024",
       "GUID": "68683230-3234-42e6-9b69-6361645f7063",
-      "Revision": "rev?"
+      "Revision": "1.4"
     },
     "Size": {
-      "X": 91.5889,
-      "Y": 113.3729
+      "X": 90.6387,
+      "Y": 114.2678
     },
     "LayerNumber": 2,
     "BoardThickness": 1.6,
@@ -77,11 +77,6 @@
       "Path": "hh2024-Edge_Cuts.gbr",
       "FileFunction": "Profile",
       "FilePolarity": "Positive"
-    },
-    {
-      "Path": "hh2024-B_Fab.gbr",
-      "FileFunction": "AssemblyDrawing,Bot",
-      "FilePolarity": "Positive"
     }
   ],
   "MaterialStackup": [
@@ -95,24 +90,29 @@
     },
     {
       "Type": "SolderMask",
+      "Thickness": 0.01,
       "Name": "Top Solder Mask"
     },
     {
       "Type": "Copper",
+      "Thickness": 0.035,
       "Name": "F.Cu"
     },
     {
       "Type": "Dielectric",
+      "Thickness": 1.51,
       "Material": "FR4",
       "Name": "F.Cu/B.Cu",
       "Notes": "Type: dielectric layer 1 (from F.Cu to B.Cu)"
     },
     {
       "Type": "Copper",
+      "Thickness": 0.035,
       "Name": "B.Cu"
     },
     {
       "Type": "SolderMask",
+      "Thickness": 0.01,
       "Name": "Bottom Solder Mask"
     },
     {

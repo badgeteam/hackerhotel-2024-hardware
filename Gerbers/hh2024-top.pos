@@ -1,0 +1,9 @@
+### Footprint positions - created on 2023-12-17T19:52:38+0100 ###
+### Printed by KiCad version 7.99.0-3954-g9b2cde9571
+## Unit = mm, Angle = deg.
+## Side : top
+# Ref     Val         Package                               PosX       PosY       Rot  Side
+J3        SAO         SAO_Female_THT_Labels             134.1080   -97.9695   90.0000  top
+J7        LED         PinHeader_1x04_P2.54mm_Vertical   125.8000   -59.6800  -90.0000  top
+J8        Conn_01x04  PinHeader_1x04_P2.54mm_Vertical    65.2330   -67.6531  180.0000  top
+## End
