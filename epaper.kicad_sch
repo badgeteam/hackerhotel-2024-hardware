@@ -4677,7 +4677,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2111172030_Samwha-Capacitor-CS2012X5R475K250NRE_C2918489.pdf"
 			(at 96.52 72.39 0)
 			(effects
 				(font
@@ -4695,7 +4695,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C2918489"
 			(at 96.52 72.39 0)
 			(effects
 				(font
@@ -4713,7 +4713,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" ""
+		(property "Link" "https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Samwha-Capacitor-CS2012X5R475K250NRE_C2918489.html"
 			(at 96.52 72.39 0)
 			(effects
 				(font
